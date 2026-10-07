@@ -114,6 +114,7 @@ body{
     height: 580px;
     width: 650px;
     /* position: absolute; */
+    object-fit: cover;
 }
 
 .h3{
@@ -561,7 +562,27 @@ a{
     font-weight: 500;
    color:#3a2612;
    margin-top: 5%;
-   
+}
+
+
+.footer-columns input{
+    background-color: inherit;
+    height: 40px;
+    width: 100%;
+    border: 2px solid rgb(143, 124, 105);
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px;
+    padding: 10px;
+}
+
+.arrow-foward{
+  position: absolute;
+  top: 585.8%;
+  left: 77.6%;
+  background-color: rgb(198,159, 122); 
+  padding: 7px 20px;
+  border-top-right-radius: 13px;
+  border-bottom-right-radius: 13px; 
 }
 
 
